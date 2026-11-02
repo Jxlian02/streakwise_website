@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://streakwise.app/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/de/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/privacy/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/de/datenschutz/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/terms/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/terms/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/de/nutzungsbedingungen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/terms/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/support/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/support/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/de/support/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/support/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/imprint/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/imprint/"/>
+  </url>
+  <url>
+    <loc>https://streakwise.app/de/impressum/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://streakwise.app/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://streakwise.app/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://streakwise.app/imprint/"/>
+  </url>
+</urlset>
