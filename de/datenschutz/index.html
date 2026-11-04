@@ -28,10 +28,10 @@
   <main class="page">
     <div class="wrap prose-wrap">
       <h1>Datenschutzerklärung</h1>
-      <p class="meta">Stand: 2. November 2026</p>
+      <p class="meta">Stand: 4. November 2026</p>
 
       <div class="card">
-        <p><strong>Kurz gesagt:</strong> Streakwise funktioniert offline und ohne Konto. Deine Gewohnheiten liegen auf deinem iPhone. Es gibt keine Werbung, kein Tracking über Apps hinweg, und wir verkaufen deine Daten nie. Daten verlassen dein Gerät nur, wenn du dich anmeldest (für Konto und Cloud-Sicherung), wenn du ein Abo abschließt oder wenn du der Nutzungsstatistik zustimmst.</p>
+        <p><strong>Kurz gesagt:</strong> Streakwise funktioniert offline und ohne Konto. Deine Gewohnheiten liegen auf deinem iPhone. Es gibt keine Werbung, kein Tracking über Apps hinweg, und wir verkaufen deine Daten nie. Daten verlassen dein Gerät nur als Sicherung in deiner eigenen iCloud, wenn du ein Abo abschließt oder wenn du der Nutzungsstatistik zustimmst.</p>
       </div>
 
       <h2>1. Verantwortlicher</h2>
@@ -46,52 +46,47 @@
       </address>
 
       <h2>2. Daten auf deinem Gerät</h2>
-      <p>Deine Gewohnheiten, Einträge und Verläufe, der Name und das große Ziel, die du eingibst, deine Antworten aus der Einrichtung und deine Einstellungen werden lokal auf deinem iPhone gespeichert. Wir haben darauf keinen Zugriff. Gelöscht werden sie, wenn du die App löschst oder in den Einstellungen „App zurücksetzen“ wählst. Ohne Konto wird davon nichts an uns übertragen.</p>
+      <p>Deine Gewohnheiten, Einträge und Verläufe, der Name und das große Ziel, die du eingibst, deine Antworten aus der Einrichtung und deine Einstellungen werden lokal auf deinem iPhone gespeichert. Wir haben darauf keinen Zugriff. Gelöscht werden sie, wenn du die App löschst oder in den Einstellungen „App zurücksetzen“ wählst. Davon wird nichts an uns übertragen.</p>
 
-      <h2>3. Konto („Mit Apple anmelden“)</h2>
-      <p>Ein Konto ist freiwillig. Meldest du dich mit Apple an, bestätigt Apple deine Identität, und wir erhalten von Apple eine pseudonyme Nutzerkennung, deine E-Mail-Adresse (oder eine weitergeleitete Adresse von Apple, wenn du deine E-Mail verbirgst) und, nur bei der ersten Anmeldung, deinen Namen. Wir speichern diese Daten bei unserem Hosting-Anbieter Supabase (Supabase, Inc.) auf Servern in Frankfurt am Main (EU). Bei der Anmeldung protokolliert Supabase außerdem technische Daten wie deine IP-Adresse und den Zeitpunkt, um den Dienst abzusichern. Da Supabase, Inc. seinen Sitz in den USA hat, ist ein Zugriff aus den USA nicht auszuschließen; dafür gelten die Standardvertragsklauseln der EU-Kommission. Das gilt auch für die Cloud-Sicherung (Abschnitt 4).</p>
-      <p>Zweck: dein Konto bereitzustellen, dein Abo damit zu verknüpfen und die Cloud-Sicherung zu ermöglichen. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
-      <p>Du kannst dein Konto jederzeit in der App unter Einstellungen › Konto › Konto löschen löschen. Dabei werden dein Konto und deine Cloud-Sicherung endgültig gelöscht und die Anmeldung bei Apple widerrufen.</p>
+      <h2>3. Sicherung in deiner iCloud</h2>
+      <p>Streakwise hat kein Konto und keinen eigenen Server für deine Daten. Ist iCloud auf deinem iPhone für die App eingeschaltet, legt die App beim Öffnen und beim Wechsel zwischen Vorder- und Hintergrund automatisch eine komprimierte Kopie ihrer Datenbank in deiner privaten iCloud (Apple CloudKit) ab, sofern sich etwas geändert hat. Die Sicherung enthält deine Gewohnheiten, Einträge und Verläufe, deinen Namen, dein großes Ziel und deine Einstellungen. <strong>Werte aus Apple Health sind nie enthalten</strong>; nach dem Wiederherstellen liest die App sie erneut aus Apple Health auf deinem iPhone. Gerätebezogene Einstellungen (etwa die Erlaubnis für Mitteilungen und die Health-Freigabe) sind ebenfalls nicht enthalten.</p>
+      <p>Die Sicherung speichert Apple in der privaten Datenbank deines iCloud-Kontos, sie zählt zu deinem iCloud-Speicher. Wir haben darauf keinen Zugriff. Apple verarbeitet sie nach der Datenschutzerklärung von Apple und den iCloud-Bedingungen.</p>
+      <p>Zweck: deine Daten nach einer Neuinstallation oder auf einem neuen iPhone mit derselben Apple-ID wiederherzustellen. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO. Du kannst die Sicherung in iOS unter Einstellungen › [dein Name] › iCloud ausschalten und dort unter Account-Speicher verwalten › Streakwise löschen.</p>
 
-      <h2>4. Cloud-Sicherung</h2>
-      <p>Solange du angemeldet bist, lädt die App beim Öffnen und beim Wechsel zwischen Vorder- und Hintergrund automatisch eine komprimierte Kopie ihrer Datenbank in Supabase Storage (Frankfurt, EU) hoch, sofern sich etwas geändert hat. Die Sicherung enthält deine Gewohnheiten, Einträge und Verläufe, deinen Namen, dein großes Ziel und deine Einstellungen. Schritte und Distanz aus Apple Health sind nur enthalten, wenn du ausdrücklich zustimmst: Nach der Anmeldung fragt die App einmal, und du kannst deine Entscheidung jederzeit unter Einstellungen › Konto › Apple-Health-Werte mitsichern ändern. Ohne Zustimmung bleiben diese Werte nur auf deinem iPhone; Ausschalten entfernt sie mit der nächsten Sicherung aus der Cloud. Gerätebezogene Einstellungen (etwa die Erlaubnis für Mitteilungen und die Health-Freigabe) sind nicht enthalten. Die Übertragung ist verschlüsselt (TLS), der Anbieter speichert verschlüsselt. Nur du hast Zugriff auf deine Sicherung.</p>
-      <p>Zweck: deine Daten nach einer Neuinstallation oder auf einem neuen iPhone wiederherzustellen. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO; für die Werte aus Apple Health deine ausdrückliche Einwilligung (Art. 9 Abs. 2 lit. a DSGVO), die du jederzeit mit dem genannten Schalter widerrufen kannst. Löschst du dein Konto, wird die ganze Sicherung gelöscht.</p>
-
-      <h2>5. Apple Health</h2>
+      <h2>4. Apple Health</h2>
       <p>Verbindest du Apple Health, liest Streakwise nur deine <strong>Schritte</strong> und deine <strong>Geh- und Laufdistanz</strong>, nur nach deiner Freigabe und nur, um Gewohnheiten zu zählen, die mit Health verbunden sind. Streakwise schreibt nichts in Apple Health.</p>
       <ul>
         <li>Health-Daten werden nie für Werbung oder Marketing genutzt und nie verkauft oder an Dritte weitergegeben.</li>
         <li>Health-Werte gehen nicht in die Nutzungsstatistik.</li>
-        <li>Die Tageswerte werden als Einträge auf deinem Gerät gespeichert. In deine Cloud-Sicherung kommen sie nur mit deiner ausdrücklichen Einwilligung (Abschnitt 4).</li>
+        <li>Die Tageswerte werden als Einträge auf deinem Gerät gespeichert. In die iCloud-Sicherung kommen sie nie (Abschnitt 3).</li>
       </ul>
       <p>Rechtsgrundlage: deine ausdrückliche Einwilligung (Art. 9 Abs. 2 lit. a DSGVO). Du kannst den Zugriff jederzeit in iOS unter Einstellungen › Health › Datenzugriff &amp; Geräte › Streakwise widerrufen.</p>
 
-      <h2>6. Erinnerungen</h2>
+      <h2>5. Erinnerungen</h2>
       <p>Erinnerungen werden lokal auf deinem iPhone geplant. Wir nutzen keinen Push-Server und erheben keine Push-Token.</p>
 
-      <h2>7. Abo</h2>
-      <p>Streakwise setzt ein Abo voraus. Käufe wickelt ausschließlich Apple über den App Store ab; Zahlungsdaten erhalten wir nicht. Um den Status deines Abos zu verwalten, nutzen wir RevenueCat (RevenueCat, Inc., USA). RevenueCat verarbeitet eine zufällige App-Nutzer-ID (oder, wenn du angemeldet bist, die interne ID deines Kontos), deine Kauf- und Abohistorie, das App-Store-Land, die App-Version, Angaben zu Gerät und Betriebssystem einschließlich der Geräte-Kennung für Anbieter (IDFV) und aus technischen Gründen deine IP-Adresse.</p>
-      <p>Zweck: die App freizuschalten, Käufe wiederherzustellen und das Abo mit deinem Konto zu verknüpfen. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO. RevenueCat verarbeitet Daten in den USA; die Übermittlung stützt sich auf die Standardvertragsklauseln der EU-Kommission und, soweit anwendbar, das EU-US Data Privacy Framework.</p>
+      <h2>6. Abo</h2>
+      <p>Streakwise setzt ein Abo voraus. Käufe wickelt ausschließlich Apple über den App Store ab; Zahlungsdaten erhalten wir nicht. Um den Status deines Abos zu verwalten, nutzen wir RevenueCat (RevenueCat, Inc., USA). RevenueCat verarbeitet eine zufällige App-Nutzer-ID, deine Kauf- und Abohistorie, das App-Store-Land, die App-Version, Angaben zu Gerät und Betriebssystem einschließlich der Geräte-Kennung für Anbieter (IDFV) und aus technischen Gründen deine IP-Adresse.</p>
+      <p>Zweck: die App freizuschalten und Käufe wiederherzustellen. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO. RevenueCat verarbeitet Daten in den USA; die Übermittlung stützt sich auf die Standardvertragsklauseln der EU-Kommission und, soweit anwendbar, das EU-US Data Privacy Framework.</p>
 
-      <h2>8. Nutzungsstatistik (nur mit Einwilligung)</h2>
-      <p>Nur wenn du zustimmst, senden wir pseudonyme Nutzungsdaten an PostHog (PostHog, Inc.), gehostet auf Servern in der EU, um zu verstehen, welche Funktionen genutzt werden, und die App zu verbessern. Dazu gehören zum Beispiel aufgerufene Seiten, das Öffnen der App, die Art einer Gewohnheit oder eine gewählte Vorlage, deine Antworten aus der Einrichtung als feste Schlüssel (etwa deine Ziele, die bevorzugte Tageszeit und wie du dich mit deiner Routine fühlst) sowie technische Angaben wie Gerätemodell, Betriebssystem- und App-Version und Sprache. Nie dabei sind dein Name, deine E-Mail-Adresse, deine Apple-ID, selbst eingegebene Texte oder genaue Health-Werte. Deine IP-Adresse erhält PostHog technisch bedingt bei der Übertragung, speichert sie aber nicht.</p>
-      <p>Ohne Konto tragen die Daten nur eine zufällige ID. Meldest du dich an, verknüpfen wir sie mit der internen ID deines Kontos, damit die Nutzung über Neuinstallationen hinweg zusammenpasst; beim Abmelden bekommt die App wieder eine neue zufällige ID. Es gibt kein Tracking über Apps hinweg, keine Werbe-ID (IDFA) und keine Bildschirmaufnahmen.</p>
+      <h2>7. Nutzungsstatistik (nur mit Einwilligung)</h2>
+      <p>Nur wenn du zustimmst, senden wir Nutzungsdaten an PostHog (PostHog, Inc.), gehostet auf Servern in der EU, um zu verstehen, welche Funktionen genutzt werden, und die App zu verbessern. Dazu gehören zum Beispiel aufgerufene Seiten, das Öffnen der App, die Art einer Gewohnheit oder eine gewählte Vorlage, deine Antworten aus der Einrichtung als feste Schlüssel (etwa deine Ziele, die bevorzugte Tageszeit und wie du dich mit deiner Routine fühlst) sowie technische Angaben wie Gerätemodell, Betriebssystem- und App-Version und Sprache. Nie dabei sind dein Name, deine E-Mail-Adresse, deine Apple-ID, selbst eingegebene Texte oder genaue Health-Werte. Deine IP-Adresse erhält PostHog technisch bedingt bei der Übertragung, speichert sie aber nicht.</p>
+      <p>Die Daten tragen nur eine zufällige ID; „App zurücksetzen“ erzeugt eine neue. Es gibt kein Tracking über Apps hinweg, keine Werbe-ID (IDFA) und keine Bildschirmaufnahmen.</p>
       <p>Rechtsgrundlage: deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG). Wir fragen einmal bei der Einrichtung; bis du entschieden hast, wird nichts gesendet. Du kannst deine Einwilligung jederzeit in der App unter Einstellungen › Rechtliches › Datenschutzerklärung › Anonyme Nutzungsstatistik widerrufen. Da PostHog, Inc. seinen Sitz in den USA hat, ist ein Zugriff aus den USA nicht auszuschließen; dafür gelten die Standardvertragsklauseln.</p>
-      <p>Nutzungsdaten werden 12 Monate nach ihrer Erfassung automatisch gelöscht. Widerrufst du deine Einwilligung, senden wir ab sofort nichts mehr. Bereits erfasste Daten löschen wir auf Wunsch früher, eine E-Mail an <a href="mailto:support@streakwise.app">support@streakwise.app</a> genügt. Warst du mit einem Konto angemeldet, finden wir deine Daten über die ID deines Kontos. Ohne Konto tragen sie nur eine zufällige ID, die wir dir nicht zuordnen können (Art. 11 DSGVO). Sie werden dann nach Ablauf der 12 Monate gelöscht.</p>
+      <p>Nutzungsdaten werden 12 Monate nach ihrer Erfassung automatisch gelöscht. Widerrufst du deine Einwilligung, senden wir ab sofort nichts mehr. Bereits erfasste Daten löschen wir auf Wunsch früher, eine E-Mail an <a href="mailto:support@streakwise.app">support@streakwise.app</a> genügt. Da sie nur eine zufällige ID tragen, die wir dir nicht zuordnen können (Art. 11 DSGVO), finden wir sie nur, wenn du uns diese ID nennen kannst; sonst werden sie nach Ablauf der 12 Monate gelöscht.</p>
 
-      <h2>9. Diese Website</h2>
+      <h2>8. Diese Website</h2>
       <p>Diese Website wird über GitHub Pages (GitHub, Inc., USA) bereitgestellt. Beim Aufruf verarbeitet GitHub deine IP-Adresse und technische Zugriffsdaten in Server-Logs, um die Seite auszuliefern und abzusichern. Rechtsgrundlage: unser berechtigtes Interesse an einer sicheren und zuverlässigen Website (Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in die USA stützt sich auf das EU-US Data Privacy Framework und Standardvertragsklauseln. Die Website setzt keine Cookies, nutzt keine Analyse und lädt keine externen Inhalte.</p>
 
-      <h2>10. Kontakt per E-Mail</h2>
+      <h2>9. Kontakt per E-Mail</h2>
       <p>Schreibst du uns eine E-Mail, verarbeiten wir deine Adresse und den Inhalt deiner Nachricht, um deine Anfrage zu beantworten (Art. 6 Abs. 1 lit. b oder f DSGVO). Wir löschen diese Daten, sobald die Anfrage erledigt ist, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
 
-      <h2>11. Empfänger im Überblick</h2>
+      <h2>10. Empfänger im Überblick</h2>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Dienst</th><th>Zweck</th><th>Ort</th></tr></thead>
           <tbody>
-            <tr><td>Apple</td><td>App Store, Käufe, „Mit Apple anmelden“, Apple Health</td><td>laut Datenschutzerklärung von Apple</td></tr>
-            <tr><td>Supabase</td><td>Konto und Cloud-Sicherung</td><td>EU (Frankfurt)</td></tr>
+            <tr><td>Apple</td><td>App Store, Käufe, iCloud-Sicherung, Apple Health</td><td>laut Datenschutzerklärung von Apple</td></tr>
             <tr><td>RevenueCat</td><td>Abo-Status</td><td>USA</td></tr>
             <tr><td>PostHog</td><td>Nutzungsstatistik, nur mit Einwilligung</td><td>EU</td></tr>
             <tr><td>GitHub</td><td>Hosting dieser Website</td><td>USA</td></tr>
@@ -100,36 +95,36 @@
       </div>
       <p>Mit diesen Anbietern haben wir, wo erforderlich, Verträge zur Auftragsverarbeitung geschlossen. An andere geben wir keine Daten weiter, es sei denn, wir sind gesetzlich dazu verpflichtet.</p>
 
-      <h2>12. Speicherdauer</h2>
+      <h2>11. Speicherdauer</h2>
       <ul>
         <li>Daten auf deinem Gerät: bis du die App löschst oder zurücksetzt.</li>
-        <li>Konto und Cloud-Sicherung: bis du dein Konto löschst.</li>
+        <li>iCloud-Sicherung: bis du sie in deinen iCloud-Einstellungen löschst.</li>
         <li>Abo-Daten: solange sie für das Abo nötig sind und das Gesetz es verlangt.</li>
         <li>Nutzungsstatistik: 12 Monate ab Erfassung, auf Wunsch früher.</li>
         <li>E-Mails: bis deine Anfrage erledigt ist, vorbehaltlich gesetzlicher Aufbewahrungsfristen.</li>
       </ul>
 
-      <h2>13. Deine Rechte</h2>
+      <h2>12. Deine Rechte</h2>
       <p>Du hast das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21). Eine Einwilligung kannst du jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3). Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem EU-Mitgliedstaat, in dem du dich gewöhnlich aufhältst. Für deine Rechte genügt eine E-Mail an <a href="mailto:support@streakwise.app">support@streakwise.app</a>.</p>
 
       <div class="card">
         <p><strong>Widerspruchsrecht (Art. 21 DSGVO)</strong></p>
-        <p>Soweit wir deine Daten auf Grundlage berechtigter Interessen verarbeiten (Art. 6 Abs. 1 lit. f DSGVO, siehe Abschnitte 9 und 10), kannst du aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit widersprechen. Wir verarbeiten die Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe nachweisen, die deine Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen. Eine formlose E-Mail an <a href="mailto:support@streakwise.app">support@streakwise.app</a> genügt.</p>
+        <p>Soweit wir deine Daten auf Grundlage berechtigter Interessen verarbeiten (Art. 6 Abs. 1 lit. f DSGVO, siehe Abschnitte 8 und 9), kannst du aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit widersprechen. Wir verarbeiten die Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe nachweisen, die deine Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen. Eine formlose E-Mail an <a href="mailto:support@streakwise.app">support@streakwise.app</a> genügt.</p>
       </div>
 
-      <h2>14. Musst du Daten angeben?</h2>
-      <p>Du kannst Streakwise ohne Konto, ohne Apple Health und ohne Nutzungsstatistik verwenden; all das ist freiwillig. Für den Kauf eines Abos brauchst du eine Apple-ID, und RevenueCat braucht die in Abschnitt 7 genannten Daten, um die App freizuschalten. Gibst du Daten für eine freiwillige Funktion nicht an, steht nur diese Funktion nicht zur Verfügung.</p>
+      <h2>13. Musst du Daten angeben?</h2>
+      <p>Du kannst Streakwise ohne iCloud-Sicherung, ohne Apple Health und ohne Nutzungsstatistik verwenden; all das ist freiwillig. Für den Kauf eines Abos brauchst du eine Apple-ID, und RevenueCat braucht die in Abschnitt 6 genannten Daten, um die App freizuschalten. Gibst du Daten für eine freiwillige Funktion nicht an, steht nur diese Funktion nicht zur Verfügung.</p>
 
-      <h2>15. Keine automatisierte Entscheidung</h2>
+      <h2>14. Keine automatisierte Entscheidung</h2>
       <p>Wir nutzen keine automatisierte Entscheidungsfindung einschließlich Profiling im Sinne von Art. 22 DSGVO.</p>
 
-      <h2>16. Nutzer außerhalb der EU</h2>
+      <h2>15. Nutzer außerhalb der EU</h2>
       <p>Streakwise ist weltweit erhältlich. Die hier beschriebenen Standards gelten für alle Nutzer, egal wo sie leben. Wir verkaufen keine personenbezogenen Daten und geben sie nicht für kontextübergreifende Werbung weiter, wie es etwa der California Consumer Privacy Act (CCPA/CPRA) definiert. Unabhängig von deinem Wohnort kannst du jederzeit Auskunft, Berichtigung oder Löschung verlangen; wir behandeln dich deshalb nicht anders.</p>
 
-      <h2>17. Kinder</h2>
+      <h2>16. Kinder</h2>
       <p>Streakwise richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Glaubst du, dass ein Kind uns Daten übermittelt hat, melde dich bitte, wir löschen sie dann.</p>
 
-      <h2>18. Änderungen</h2>
+      <h2>17. Änderungen</h2>
       <p>Wir passen diese Erklärung an, wenn sich die App oder die Rechtslage ändert. Die aktuelle Fassung steht immer unter dieser Adresse. Braucht eine Änderung erneut deine Einwilligung, fragt die App dich.</p>
     </div>
   </main>

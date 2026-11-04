@@ -59,10 +59,9 @@ Die Links sind absolut ab `/`, sie funktionieren deshalb nur unter der eigenen D
 
 - [ ] **Rechtstexte prüfen lassen.** Datenschutz, Nutzungsbedingungen und Impressum sind nach bestem Wissen aus dem tatsächlichen Datenfluss der App geschrieben, aber nicht anwaltlich geprüft.
 - [ ] Angaben in der Datenschutzerklärung mit der echten Einrichtung abgleichen:
-  - Supabase-Projekt in Frankfurt (eu-central-1)
   - PostHog-Projekt in der EU-Cloud im **kostenlosen Tarif** (Aufbewahrung 1 Jahr; bezahlte Tarife halten 7 Jahre, kürzer lässt es sich nicht stellen). Von PostHog schriftlich bestätigen lassen, dass Events nach Ablauf gelöscht und nicht nur ausgeblendet werden. Die Datenschutzerklärung sagt „12 Monate nach Erfassung automatisch gelöscht“.
   - In PostHog „Discard client IP data“ einschalten (die Erklärung sagt, die IP wird nicht gespeichert)
-  - Auftragsverarbeitungsverträge (DPA) mit Supabase, RevenueCat und PostHog abschließen
+  - Auftragsverarbeitungsverträge (DPA) mit RevenueCat und PostHog abschließen
 - [ ] **c/o-Anschrift:** Die Anschrift eines Impressum-Service ist verbreitet, als „ladungsfähige Anschrift“ aber nicht ganz unumstritten. Bei der Prüfung der Rechtstexte mit ansprechen.
 - [ ] Sobald die App live ist: Platzhalter „Coming soon to the App Store“ / „Bald im App Store“ in `index.html` und `de/index.html` durch das offizielle Badge von Apple (Marketing-Ressourcen, nicht selbst nachbauen) mit Link auf die App ersetzen und `<meta name="apple-itunes-app" content="app-id=…">` einkommentieren.
 - [ ] Finales App-Icon: `assets/app-icon.png` (256 px), `apple-touch-icon.png` (180 px) und `favicon.png` (64 px) aus dem neuen Icon erzeugen, z. B. `sips -z 256 256 app_icon.png --out assets/app-icon.png`.
@@ -73,4 +72,4 @@ Die Links sind absolut ab `/`, sie funktionieren deshalb nur unter der eigenen D
 - Primärsprache der Metadaten Englisch, Deutsch als zweite Lokalisierung.
 - **EU-Händlerstatus (Digital Services Act):** Wer Abos verkauft, ist Händler. Apple zeigt dann in den EU-Stores Anschrift, E-Mail **und Telefonnummer** öffentlich an. Die Anschrift sollte zur c/o-Adresse im Impressum passen.
 - **China (Festland):** Apps brauchen eine ICP-Registrierungsnummer. Ohne sie China in „Preise und Verfügbarkeit“ abwählen.
-- App-Datenschutz-Etiketten passend zur Datenschutzerklärung angeben (Kontakt- und Kennungsdaten, Gesundheit & Fitness über die Sicherung, Nutzungsdaten mit Einwilligung; kein Tracking).
+- App-Datenschutz-Etiketten passend zur Datenschutzerklärung angeben (Nutzungsdaten mit Einwilligung, Kennungen für das Abo bei RevenueCat; keine Kontaktdaten und keine Gesundheitsdaten mehr, weil es kein Konto gibt und die Sicherung in der iCloud des Nutzers liegt, ohne Health-Werte; kein Tracking).

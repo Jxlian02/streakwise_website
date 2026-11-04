@@ -28,10 +28,10 @@
   <main class="page">
     <div class="wrap prose-wrap">
       <h1>Privacy Policy</h1>
-      <p class="meta">Last updated: 2 November 2026</p>
+      <p class="meta">Last updated: 4 November 2026</p>
 
       <div class="card">
-        <p><strong>In short:</strong> Streakwise works offline and without an account. Your habits are stored on your iPhone. There are no ads, no tracking across apps and we never sell your data. Data only leaves your device if you sign in (for your account and cloud backup), when you buy a subscription, or if you agree to usage statistics.</p>
+        <p><strong>In short:</strong> Streakwise works offline and without an account. Your habits are stored on your iPhone. There are no ads, no tracking across apps and we never sell your data. Data only leaves your device as a backup in your own iCloud, when you buy a subscription, or if you agree to usage statistics.</p>
       </div>
 
       <h2>1. Who is responsible</h2>
@@ -46,52 +46,47 @@
       </address>
 
       <h2>2. Data stored on your device</h2>
-      <p>Your habits, check-ins and history, the name and personal goal you enter, your onboarding answers and your settings are stored locally on your iPhone. We have no access to this data. It is deleted when you delete the app or use “Reset app” in the settings. Without an account, none of this is transmitted to us.</p>
+      <p>Your habits, check-ins and history, the name and personal goal you enter, your onboarding answers and your settings are stored locally on your iPhone. We have no access to this data. It is deleted when you delete the app or use “Reset app” in the settings. None of this is transmitted to us.</p>
 
-      <h2>3. Account (Sign in with Apple)</h2>
-      <p>An account is optional. If you choose “Sign in with Apple”, Apple confirms your identity and we receive a pseudonymous user identifier from Apple, your email address (or an Apple private relay address, if you choose to hide your email) and, on first sign-in only, your name. We store this data with our hosting provider Supabase (Supabase, Inc.) on servers in Frankfurt, Germany (EU). When you sign in, Supabase also logs technical data such as your IP address and the time of sign-in to keep the service secure. As Supabase, Inc. is based in the USA, access from the USA cannot be ruled out; this is covered by the European Commission’s standard contractual clauses. The same applies to the cloud backup (section 4).</p>
-      <p>Purpose: to provide your account, to link your subscription to it and to enable the cloud backup. Legal basis: performance of a contract (Art. 6(1)(b) GDPR).</p>
-      <p>You can delete your account at any time in the app under Settings › Account › Delete account. This permanently deletes your account and your cloud backup and revokes the sign-in with Apple.</p>
+      <h2>3. Backup in your iCloud</h2>
+      <p>Streakwise has no account and no server of its own for your data. If iCloud is turned on for the app on your iPhone, the app automatically saves a compressed copy of its database in your private iCloud (Apple CloudKit) when you open the app and when it changes between foreground and background, provided something has changed. The backup contains your habits, check-ins and history, your name, your personal goal and your settings. <strong>Values from Apple Health are never included</strong>; after a restore, the app reads them again from Apple Health on your iPhone. Device-specific settings (such as notification permission and Health access) are not included either.</p>
+      <p>The backup is stored by Apple in the private database of your iCloud account and counts toward your iCloud storage. We have no access to it. Apple processes it according to Apple’s privacy policy and the iCloud terms.</p>
+      <p>Purpose: to restore your data after reinstalling the app or on a new iPhone with the same Apple ID. Legal basis: Art. 6(1)(b) GDPR. You can turn the backup off in iOS under Settings › [your name] › iCloud and delete it there under Manage Account Storage › Streakwise.</p>
 
-      <h2>4. Cloud backup</h2>
-      <p>While you are signed in, the app automatically uploads a compressed copy of its database to Supabase Storage (Frankfurt, EU) when you open the app and when it changes between foreground and background, provided something has changed. The backup contains your habits, check-ins and history, your name, your personal goal and your settings. Step and distance values from Apple Health are only included if you explicitly agree: after you sign in, the app asks you once, and you can change your decision at any time under Settings › Account › Back up Apple Health values. Without your consent, these values stay on your iPhone only; turning the switch off removes them from the cloud with the next backup. Device-specific settings (such as notification permission and Health access) are not included. Data is encrypted in transit (TLS) and stored encrypted by the provider. Only you can access your backup.</p>
-      <p>Purpose: to restore your data after reinstalling the app or on a new iPhone. Legal basis: Art. 6(1)(b) GDPR; for the Apple Health values, your explicit consent (Art. 9(2)(a) GDPR), which you can withdraw at any time with the switch mentioned above. Deleting your account deletes the entire backup.</p>
-
-      <h2>5. Apple Health</h2>
+      <h2>4. Apple Health</h2>
       <p>If you connect Apple Health, Streakwise reads only your <strong>steps</strong> and <strong>walking and running distance</strong>, only after you have granted permission and only to count habits that are linked to Health. Streakwise does not write anything to Apple Health.</p>
       <ul>
         <li>Health data is never used for advertising or marketing and is never sold or shared with third parties.</li>
         <li>Health values are not sent to our usage statistics.</li>
-        <li>Daily values are stored as check-ins on your device. They are only included in your cloud backup with your explicit consent (section 4).</li>
+        <li>Daily values are stored as check-ins on your device. They are never included in the iCloud backup (section 3).</li>
       </ul>
       <p>Legal basis: your explicit consent (Art. 9(2)(a) GDPR). You can revoke access at any time in iOS under Settings › Health › Data Access &amp; Devices › Streakwise.</p>
 
-      <h2>6. Reminders</h2>
+      <h2>5. Reminders</h2>
       <p>Reminders are scheduled locally on your iPhone. We do not use a push server and do not collect push tokens.</p>
 
-      <h2>7. Subscriptions</h2>
-      <p>Streakwise requires a subscription. Purchases are processed exclusively by Apple through the App Store; we do not receive any payment details. To manage the status of your subscription, we use RevenueCat (RevenueCat, Inc., USA). RevenueCat processes a random app user ID (or, if you are signed in, the internal ID of your account), your purchase and subscription history, the App Store country, the app version, device and operating system information including the device identifier for vendors (IDFV) and, for technical reasons, your IP address.</p>
-      <p>Purpose: to unlock the app, to restore purchases and to keep the subscription linked to your account. Legal basis: Art. 6(1)(b) GDPR. RevenueCat processes data in the USA; the transfer is based on the European Commission’s standard contractual clauses and, where applicable, the EU-U.S. Data Privacy Framework.</p>
+      <h2>6. Subscriptions</h2>
+      <p>Streakwise requires a subscription. Purchases are processed exclusively by Apple through the App Store; we do not receive any payment details. To manage the status of your subscription, we use RevenueCat (RevenueCat, Inc., USA). RevenueCat processes a random app user ID, your purchase and subscription history, the App Store country, the app version, device and operating system information including the device identifier for vendors (IDFV) and, for technical reasons, your IP address.</p>
+      <p>Purpose: to unlock the app, and to restore purchases. Legal basis: Art. 6(1)(b) GDPR. RevenueCat processes data in the USA; the transfer is based on the European Commission’s standard contractual clauses and, where applicable, the EU-U.S. Data Privacy Framework.</p>
 
-      <h2>8. Usage statistics (only with your consent)</h2>
-      <p>Only if you agree, we send pseudonymous usage data to PostHog (PostHog, Inc.), hosted on servers in the EU, to understand which features are used and to improve the app. This includes, for example, screens viewed, app opens, the type of a habit or a chosen template, your answers during setup as fixed keys (such as your goals, preferred time of day and how you feel about your routine), as well as technical data such as device model, operating system and app version, and language. It never includes your name, your email address, your Apple ID, text you entered or exact Health values. PostHog receives your IP address for technical reasons when the data is transmitted, but does not store it.</p>
-      <p>Without an account, the data only carries a random ID. If you sign in, we link it to your account’s internal ID so that usage stays consistent across reinstalls; when you sign out, the app gets a new random ID again. There is no tracking across apps, no advertising identifier (IDFA) and no screen recording.</p>
+      <h2>7. Usage statistics (only with your consent)</h2>
+      <p>Only if you agree, we send usage data to PostHog (PostHog, Inc.), hosted on servers in the EU, to understand which features are used and to improve the app. This includes, for example, screens viewed, app opens, the type of a habit or a chosen template, your answers during setup as fixed keys (such as your goals, preferred time of day and how you feel about your routine), as well as technical data such as device model, operating system and app version, and language. It never includes your name, your email address, your Apple ID, text you entered or exact Health values. PostHog receives your IP address for technical reasons when the data is transmitted, but does not store it.</p>
+      <p>The data only carries a random ID; resetting the app creates a new one. There is no tracking across apps, no advertising identifier (IDFA) and no screen recording.</p>
       <p>Legal basis: your consent (Art. 6(1)(a) GDPR and Section 25(1) TDDDG). We ask for it once during setup; until you decide, nothing is sent. You can withdraw your consent at any time in the app under Settings › Legal › Privacy policy › Anonymous usage statistics. As PostHog, Inc. is based in the USA, access from the USA cannot be ruled out; this is covered by the standard contractual clauses.</p>
-      <p>Usage data is deleted automatically 12 months after it was collected. If you withdraw your consent, nothing more is sent from that moment on. We will delete data that has already been collected sooner if you ask us; an email to <a href="mailto:support@streakwise.app">support@streakwise.app</a> is enough. If you were signed in, we can find your data using your account’s ID. Without an account, the data only carries a random ID that we cannot link to you (Art. 11 GDPR); it is then deleted once the 12 months have passed.</p>
+      <p>Usage data is deleted automatically 12 months after it was collected. If you withdraw your consent, nothing more is sent from that moment on. We will delete data that has already been collected sooner if you ask us; an email to <a href="mailto:support@streakwise.app">support@streakwise.app</a> is enough. As the data only carries a random ID that we cannot link to you (Art. 11 GDPR), we can only find it if you can tell us that ID; otherwise it is deleted once the 12 months have passed.</p>
 
-      <h2>9. This website</h2>
+      <h2>8. This website</h2>
       <p>This website is hosted on GitHub Pages (GitHub, Inc., USA). When you visit it, GitHub processes your IP address and technical access data in server logs to deliver the site and keep it secure. Legal basis: our legitimate interest in a secure and reliable website (Art. 6(1)(f) GDPR). The transfer to the USA is based on the EU-U.S. Data Privacy Framework and standard contractual clauses. The website uses no cookies, no analytics and no externally loaded content.</p>
 
-      <h2>10. Contacting us</h2>
+      <h2>9. Contacting us</h2>
       <p>If you write to us by email, we process your email address and the content of your message to answer your request (Art. 6(1)(b) or (f) GDPR). We delete this data once your request has been dealt with, unless statutory retention obligations apply.</p>
 
-      <h2>11. Overview of recipients</h2>
+      <h2>10. Overview of recipients</h2>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Service</th><th>Purpose</th><th>Location</th></tr></thead>
           <tbody>
-            <tr><td>Apple</td><td>App Store, purchases, Sign in with Apple, Apple Health</td><td>according to Apple’s privacy policy</td></tr>
-            <tr><td>Supabase</td><td>Account and cloud backup</td><td>EU (Frankfurt)</td></tr>
+            <tr><td>Apple</td><td>App Store, purchases, iCloud backup, Apple Health</td><td>according to Apple’s privacy policy</td></tr>
             <tr><td>RevenueCat</td><td>Subscription status</td><td>USA</td></tr>
             <tr><td>PostHog</td><td>Usage statistics, only with consent</td><td>EU</td></tr>
             <tr><td>GitHub</td><td>Hosting of this website</td><td>USA</td></tr>
@@ -100,36 +95,36 @@
       </div>
       <p>We have concluded data processing agreements with these providers where required. We do not pass on data to anyone else unless we are legally obliged to do so.</p>
 
-      <h2>12. How long we keep data</h2>
+      <h2>11. How long we keep data</h2>
       <ul>
         <li>Data on your device: until you delete the app or reset it.</li>
-        <li>Account and cloud backup: until you delete your account.</li>
+        <li>iCloud backup: until you delete it in your iCloud settings.</li>
         <li>Subscription data: as long as needed to provide the subscription and as required by law.</li>
         <li>Usage statistics: 12 months from collection, or sooner on request.</li>
         <li>Emails: until your request has been dealt with, subject to statutory retention periods.</li>
       </ul>
 
-      <h2>13. Your rights</h2>
+      <h2>12. Your rights</h2>
       <p>You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object (Art. 21). You can withdraw any consent at any time with effect for the future (Art. 7(3)). You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the EU member state of your habitual residence. To exercise your rights, simply email <a href="mailto:support@streakwise.app">support@streakwise.app</a>.</p>
 
       <div class="card">
         <p><strong>Right to object (Art. 21 GDPR)</strong></p>
-        <p>Where we process your data on the basis of our legitimate interests (Art. 6(1)(f) GDPR, see sections 9 and 10), you have the right to object at any time on grounds relating to your particular situation. We will then no longer process the data unless we can demonstrate compelling legitimate grounds that override your interests, rights and freedoms, or the processing serves to establish, exercise or defend legal claims. An informal email to <a href="mailto:support@streakwise.app">support@streakwise.app</a> is sufficient.</p>
+        <p>Where we process your data on the basis of our legitimate interests (Art. 6(1)(f) GDPR, see sections 8 and 9), you have the right to object at any time on grounds relating to your particular situation. We will then no longer process the data unless we can demonstrate compelling legitimate grounds that override your interests, rights and freedoms, or the processing serves to establish, exercise or defend legal claims. An informal email to <a href="mailto:support@streakwise.app">support@streakwise.app</a> is sufficient.</p>
       </div>
 
-      <h2>14. Is providing data required?</h2>
-      <p>You can use Streakwise without an account, without Apple Health and without usage statistics; all of these are voluntary. Buying a subscription requires an Apple ID, and RevenueCat needs the data described in section 7 to unlock the app. If you don’t provide data for a voluntary feature, only that feature is unavailable.</p>
+      <h2>13. Is providing data required?</h2>
+      <p>You can use Streakwise without the iCloud backup, without Apple Health and without usage statistics; all of these are voluntary. Buying a subscription requires an Apple ID, and RevenueCat needs the data described in section 6 to unlock the app. If you don’t provide data for a voluntary feature, only that feature is unavailable.</p>
 
-      <h2>15. No automated decision-making</h2>
+      <h2>14. No automated decision-making</h2>
       <p>We do not use automated decision-making, including profiling, within the meaning of Art. 22 GDPR.</p>
 
-      <h2>16. Users outside the EU</h2>
+      <h2>15. Users outside the EU</h2>
       <p>Streakwise is available worldwide. We apply the standards described here to all users, wherever they live. We do not sell or share personal information for cross-context behavioural advertising, as defined for example by the California Consumer Privacy Act (CCPA/CPRA). Regardless of where you live, you can ask us to access, correct or delete your data at any time; we will not treat you differently for doing so.</p>
 
-      <h2>17. Children</h2>
+      <h2>16. Children</h2>
       <p>Streakwise is not directed at children under 16. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it.</p>
 
-      <h2>18. Changes to this policy</h2>
+      <h2>17. Changes to this policy</h2>
       <p>We will update this policy when the app or the legal situation changes. The current version is always available at this address. If a change requires your consent again, the app will ask you.</p>
     </div>
   </main>
